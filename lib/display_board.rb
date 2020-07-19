@@ -1,18 +1,9 @@
-
-
-#board = [" X ", "   ", " O ", "   ", " X ", " O ", "   ", "   ", " X "]
-  
-  
-  
-def display_board(board) 
+board = [" X ", "   ", " O ", "   ", " X ", " O ", "   ", "   ", " X "]
+def display_board(board)
   puts "#{board[0]}, #{board[1]}, #{board[2]}, #{board[3]}, #{board[4]}, #{board[5]}, #{board[6]}, #{board[7]}, #{board[8]}"
 end 
 
-board = [" X ", "   ", " O ", "   ", " X ", " O ", "   ", "   ", " X "]
-display_board(board)
-  puts "   |   |   "
-  puts "-----------"
-  puts "   |   |   "
-  puts "-----------"
-  puts "   |   |   "
-end
+
+
+def display_board(space_x, space_y)
+  puts "#{space_x[0]}, #{space_
